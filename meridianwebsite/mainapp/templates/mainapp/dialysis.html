@@ -1,0 +1,43 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dialysis</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'mainapp/css/style.css' %}">
+</head>
+<body>
+
+<div class="services">
+    <h1>Services List</h1>
+    <p><a href="/mainapp/dialysis">Dialysis Department</a></p>
+    <p><a href="/mainapp/dialysis">Nutrition Department</a></p>
+    <p><a href="/mainapp/dialysis">Physiotherapy Department</a></p>
+    <p><a href="/mainapp/dialysis">Dental Department</a></p>
+</div>
+
+<div class="containers">
+    <h1>Dialysis Services</h1>
+
+    <label for="p">Dialysis:</label>
+    <img style="width:300px; height:250px;" src="{% static 'mainapp/images/dialysiss.jpg' %}"/>
+
+    <p>We run a nephrology clinic. To complement this unit at a time when statistics show a rising incidence of renal </p>
+        <p>impairment, we have established a dialysis unit to help the numerous patients whose clinical conditions daily </p>
+        <p> demand this service. With a dedicated team attached to the unit, it is available and accessible almost 24/7 and </p>
+        <p> it has restored hope and indeed, life to many. Comprehensive renal replacement therapy (dialysis) options are </p>
+         <p>available to people with chronic kidney disease.</p>
+
+    <p>For those with kidney failure or kidney disease and are in need of a dialysis, then at Meridian Hospital is the</p>
+        <p>place to be for we offer:</p>
+    <ul>
+        <li>Chronic Kidney Disease (Renal Failure) support</li>
+        <li>Outpatient dialysis services</li>
+        <li>Home dialysis training and support for both home hemodialysis and peritoneal dialysis</li>
+        <li>Outpatient dialysis services</li>
+        <li>Temporary dialysis if you need treatment while traveling</li>
+        <li>In-center hemodialysis</li>
+    </ul>
+</div>
+</body>
+</html>

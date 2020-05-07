@@ -1,0 +1,49 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meridian Services</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'mainapp/css/style.css' %}">
+</head>
+<body>
+	<div class="head">
+		<p>__We offer these services__</p>
+		<p>Healthcare Services</p>
+	</div>
+
+	<div class="row">
+
+		<div class="column">
+			<img style="width:300px; height:250px;" src="{% static 'mainapp/images/dialysis.jpeg' %}"/>
+			<div class="photo">
+				<a href="/mainapp/dialysis">Dialysis</a>
+			</div>
+		</div>
+
+		<div class="column">
+			<img style="width:300px; height:250px;" src="{% static 'mainapp/images/dental.jpg' %}"/>
+			<div class="photo">
+				<a href="/mainapp/dental">Dental</a>
+			</div>
+		</div>
+
+		<div class="column">
+			<img style="width:300px; height:250px;" src="{% static 'mainapp/images/physiotherapy.jpg' %}"/>
+			<div class="photo">
+				<a href="/mainapp/physiotherapy">Physiotherapy</a>
+			</div>
+		</div>
+
+		<div class="column">
+			<img style="width:300px; height:250px;" src="{% static 'mainapp/images/diagnostic.jpeg' %}"/>
+			<div class="photo">
+				<a href="/mainapp/diagnostic">Diagnostic</a>
+			</div>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
